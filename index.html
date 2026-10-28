@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For My Bubu 💗</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="hearts">💗 ✨ 💕 🦋 💖</div>
+
+<section class="screen active" id="passwordScreen"><div class="card">
+<div class="emoji">🔐💌</div><p class="eyebrow">A LITTLE MEMORY OF US</p>
+<h1>Only for my Bubu 💗</h1><p class="subtitle">First, prove that you remember our special day! 🥹</p>
+<div class="hint"><strong>Hint 🛺</strong><br>The day/month/year we met for the first time...<br>in the auto 💕</div>
+<form id="passwordForm"><input type="password" id="passwordInput" placeholder="Enter our special date" autocomplete="off" required><button class="button primary" type="submit">Unlock My Little World 💖</button></form>
+<p class="error" id="passwordError" aria-live="polite"></p><p class="tiny">Remember that day? 👀</p>
+</div></section>
+
+<section class="screen" id="welcomeScreen"><div class="card">
+<div class="emoji">🧸💗</div><p class="eyebrow">HEY, HANDSOME!</p><h1>Welcome, my Bubu! 🥹</h1>
+<p class="subtitle">I made a tiny website just for you. A little surprise, a little love, and a few memories from us. 💌</p>
+<div class="sticker">🛺 + 💗 = Our little memory</div><button class="button primary" id="startButton">Let's Go, Darling 💌</button>
+</div></section>
+
+<section class="screen" id="memoriesScreen"><div class="card">
+<div class="emoji">💞</div><p class="eyebrow">A FEW WORDS FOR YOU</p><h1>My Bubu 🧸</h1>
+<div class="memory-box"><div class="memory-emoji" id="memoryEmoji">💐💗</div><h2 id="memoryTitle"></h2><p id="memoryText"></p></div>
+<div class="dots" id="memoryDots">● ○ ○</div><button class="button primary" id="nextMemory">Next Memory ➜</button>
+<div class="cute-gifts">
+<button class="button secondary" id="bouquetButton">💐 A bouquet for you</button>
+<button class="button secondary" id="hugButton">🤗 A big warm hug</button>
+<button class="button secondary" id="kissButton">😘 A little kiss</button>
+<p id="giftMessage" aria-live="polite"></p></div>
+<p class="tiny">A little virtual love, just for you 💗</p>
+</div></section>
+
+<section class="screen" id="visitQuestion"><div class="card">
+<div class="emoji">🥹💗</div><p class="eyebrow">VERY IMPORTANT QUESTION</p><h1>Naa dhaggara ki vasthava? 🥺</h1>
+<p class="subtitle">Think carefully before answering! 👀</p><div class="girl-cartoon" id="girlCartoon">👧🏻 🧱</div>
+<p id="visitMessage" aria-live="polite">Choose your answer wisely... 😂</p>
+<div class="visit-buttons"><button class="button primary" id="yesVisit">YESSS 💗</button><button class="button secondary" id="noVisit">NO 😌</button></div>
+<p class="tiny">Warning: excessive cuteness ahead 🎀</p>
+</div></section>
+
+<section class="screen" id="prankScreen"><div class="card">
+<div class="emoji">🤣🎉</div><p class="eyebrow">SURPRISE, BUBU!</p><h1>YOU GOT PRANKED! 😂</h1>
+<p class="subtitle">Ayyo Bubu, don't be scared! It's just a cute little prank. No real chalk drama here. 😭💗</p>
+<div class="sticker">👧🏻 🧱 ➜ 😂 💕</div><p>Now that you survived my tiny prank, here's something from my heart. 💌</p>
+<button class="button primary" id="showLetter">One Last Thing, Darling 💌</button>
+</div></section>
+
+<section class="screen" id="loveEnding"><div class="card letter-card">
+<div class="emoji">💌🧸</div><p class="eyebrow">FROM MY HEART TO YOU</p><h1>For My Handsome Boy 💗</h1>
+<div class="letter-box"><p class="step-count" id="stepCount">Step 1 of 3</p><h2 id="loveTitle"></h2><p id="loveText"></p></div>
+<div class="dots" id="loveDots">● ○ ○</div><button class="button primary" id="nextLove">Read Next 💗</button>
+<p class="tiny">Always cheering for you, Bubu. 🥹</p>
+</div></section>
+<footer>Made with lots of love, just for you 💗</footer>
+<script src="script.js"></script>
+</body></html>
